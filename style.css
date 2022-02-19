@@ -1,6 +1,6 @@
 @import url("http://fonts.cdnfonts.com/css/post-no-bills-jaffna");
-@import url(https://fonts.googleapis.com/css?family=PT+Sans);
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 
 body
 {
@@ -28,6 +28,14 @@ body
 .title {
     font-size: 36px;
     font-weight:bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: "Playfair Display";
+}
+
+.h2-title {
+    font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
@@ -388,3 +396,87 @@ main {
     gap: 40px;
 }
 
+footer {
+    height: 400px;
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.1), rgba(15, 15, 15, 0.5)), url(icons/footer.png) no-repeat center top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-direction: row;
+    gap: 31px;
+}
+
+.footer-box {
+    display: flex;
+    width: 350px;
+    font-size: 14px;
+    line-height: 150%;
+    align-items: left;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.category {
+    background-color: #0F0F0F;
+    color: lightgray;
+    line-height: 150%;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categories {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.email-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.email-input {
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    height: 40px;
+    width: 210px;
+    color: white;
+    padding-left: 15px;
+    margin: 0px 0px;
+}
+
+.email-container > button {
+    height: 40px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: lightgray;
+    font-family: "PT Sans";
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: lightgray;
+    font-family: "PT Sans";
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: lightgray;
+    font-family: "PT Sans";
+  }
