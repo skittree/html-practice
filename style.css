@@ -1,0 +1,482 @@
+@import url("http://fonts.cdnfonts.com/css/post-no-bills-jaffna");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+
+body
+{
+    margin: auto;
+    font-family: "PT Sans";
+    color: white;
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+/* Reusable Styles */
+
+.logo {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-family: "Post No Bills Jaffna";
+    white-space: nowrap;
+}
+
+.title {
+    font-size: 36px;
+    font-weight:bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: "Playfair Display";
+}
+
+.h2-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: "Playfair Display";
+}
+
+.top-center {
+    background-size: cover;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* Header */
+
+header {
+    top: 0;
+    color: gray;
+    position: fixed;
+    width: 100%
+}
+
+.pre-header {
+    background-color: black;
+}
+
+.pre-header-container {
+    height: 44px;
+    font-size: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: row;
+    gap: 12px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: row;
+    gap: 12px;
+}
+
+.header-link {
+    color: gray;
+    text-decoration: none;
+}
+
+.main-header {
+    background-color: #0F0F0F;
+}
+
+.main-header-container {
+    height: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo-top {
+    font-size: 36px;
+    margin-right: 48px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 0px;
+    height: 36px;
+    padding: 30px 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    height: 18px;
+}
+
+.nav-button {
+    text-decoration: none;
+    list-style-type: none;
+    color: gray;
+    margin-top: 0px;
+    height: 36px;
+    padding: 30px 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    height: 18px;
+    white-space: nowrap;
+}
+
+.nav-button:hover {
+    background-color: #1F1F1F;
+    color: white;
+}
+
+/* Main */
+
+main {
+    margin-top: 124px;
+
+}
+
+
+.first-container {
+    justify-content: center;
+    height: 810px;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.1), rgba(15, 15, 15, 0.5)), url(icons/clothes.png) no-repeat 50% 50%; /* не смог достать незатемнённый оригинал */
+    background-size: cover;
+    gap: 10%;
+
+}
+
+.rect {
+    margin-right: auto;
+    margin-left: auto;
+    width: 320px;
+    height: 320px;
+    font-size: 22px;
+    border: 4px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.line {
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    width: 57%;
+    background-color: white;
+}
+
+.line-small {
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    width: 100px;
+    background-color: white;
+}
+
+.logo-center {
+    font-size: 64px;
+    line-height: 90%;
+}
+
+.text-center {
+    width: 38%;
+    font-size: 16px;
+    line-height: 150%;
+    color: white;
+}
+
+.second-container {
+    height: 730px;
+    font-family: "Playfair Display";
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.showcase {
+    text-transform: uppercase;
+    height: 100%;
+    width: 55%;
+}
+
+.showcase-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    gap: 32px;
+    margin-top: 100px;
+}
+
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-transform: uppercase;
+    gap: 32px;
+    max-height: 407px;
+}
+
+.item-desc {
+    text-align: left;
+}
+
+.item-desc > p {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.item-container {
+    height: 325px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F1F1F;
+}
+
+.collection {
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.1), rgba(15, 15, 15, 0.5)), url(icons/Rectangle8.png) no-repeat left top;
+    background-size: cover;
+    height: 100%;
+    width: 45%;
+    justify-content: flex-end;
+}
+
+.collection-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    gap: 32px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.button {
+    border: 2px solid white;
+    background-color: rgba(255, 0, 0, 0);
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+  
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.third-container {
+    height: 600px;
+    font-family: "Playfair Display";
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third-picture {
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.1), rgba(15, 15, 15, 0.5)), url(icons/thirdpicture.png) no-repeat center top;
+    background-size: cover;
+    height: 100%;
+    width: 45%;
+    justify-content: flex-end;
+}
+
+.collection-text {
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.collection-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+
+.collection-text-container > span {
+    font-family: "PT Sans";
+    width: 50%;
+}
+
+.collection-text-container > title {
+    font-weight: normal;
+}
+
+.fourth-container {
+    font-family: "Playfair Display";
+}
+
+.big-showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    margin-top: 81px;
+    margin-bottom: 151px;
+}
+
+.fifth-container {
+    height: 362px;
+    background-color: #0F0F0F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.brands-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+
+footer {
+    height: 400px;
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.1), rgba(15, 15, 15, 0.5)), url(icons/footer.png) no-repeat center top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-direction: row;
+    gap: 31px;
+}
+
+.footer-box {
+    display: flex;
+    width: 350px;
+    font-size: 14px;
+    line-height: 150%;
+    align-items: left;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.category {
+    background-color: #0F0F0F;
+    color: lightgray;
+    line-height: 150%;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categories {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.email-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.email-input {
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    height: 40px;
+    width: 210px;
+    color: white;
+    padding-left: 15px;
+    margin: 0px 0px;
+}
+
+.email-container > button {
+    height: 40px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: lightgray;
+    font-family: "PT Sans";
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: lightgray;
+    font-family: "PT Sans";
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: lightgray;
+    font-family: "PT Sans";
+  }
