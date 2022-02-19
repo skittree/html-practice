@@ -238,11 +238,15 @@ main {
 
 .items-container {
     display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    overflow-y: hidden;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     text-transform: uppercase;
     gap: 32px;
+    max-height: 407px;
 }
 
 .item-desc {
@@ -340,4 +344,19 @@ main {
 
 .collection-text-container > title {
     font-weight: normal;
+}
+
+.fourth-container {
+    font-family: "Playfair Display";
+}
+
+.big-showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    margin-top: 81px;
+    margin-bottom: 151px;
 }
